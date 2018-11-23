@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, .page-wrapper {
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+  
+  body {
+    background: #eee;
+    background-color: #9094aa;
+    background-image: url("images/background/Abstract.jpg");
+  }
+  
+  .page-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
