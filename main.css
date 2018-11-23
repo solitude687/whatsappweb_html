@@ -45,3 +45,31 @@
     opacity: 0.8;
   }
   
+  .sidebar {
+    width: 30%;
+    max-width: 350px;
+    background: #fafafa;
+    border-right: 1px solid #ccc;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: #fdfdfd;
+  }
+  
+  .header {
+    height: 64px;
+    background: #dedede;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .main-content {
+    overflow-y: scroll;
+  }
+  
+  .flex1 {
+    flex: 1;
+  }
+  
